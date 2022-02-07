@@ -18,6 +18,7 @@
 </script>
 
 {#if items}
+  <h1>Dev News List</h1>
   {#each items as item, i}
     <Summary {item} {i} {offset} />
   {/each}
